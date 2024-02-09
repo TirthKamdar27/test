@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './home.css';
-import ImageModal from '../ImageModal';
+import ImageModal from '../Imagemodal/ImageModal';
 
 import video from '../../assets/video.mp4';
 import img1 from '../../assets/1.jpg';
