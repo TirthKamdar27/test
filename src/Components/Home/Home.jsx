@@ -17,13 +17,13 @@ const Home = () => {
 
   let data = [
     { id: 1, imgSrc: img1, desc: 'Setting up of equipment' },
-    { id: 2, imgSrc: img2, desc: 'Setting up of equipment' },
-    { id: 3, imgSrc: img3, desc: 'Setting up of equipment' },
-    { id: 4, imgSrc: img4, desc: 'Setting up of equipment' },
-    { id: 5, imgSrc: img5, desc: 'Setting up of equipment' },
-    { id: 6, imgSrc: img6, desc: 'Setting up of equipment' },
-    { id: 7, imgSrc: img7, desc: 'Setting up of equipment' },
-    { id: 10, imgSrc: img10, desc: 'Setting up of equipment' },
+    { id: 2, imgSrc: img2, desc: 'Nutritous Breakfast' },
+    { id: 3, imgSrc: img3, desc: "Nature's Tunnel" },
+    { id: 4, imgSrc: img4, desc: 'The Boat House' },
+    { id: 5, imgSrc: img5, desc: 'Prepossessing Garden' },
+    { id: 6, imgSrc: img6, desc: 'Interesting Botanical Preachment' },
+    { id: 7, imgSrc: img7, desc: 'Organic Roses settlement' },
+    { id: 10, imgSrc: img10, desc: 'The Sun Set' },
   ];
 
   const handleImageClick = (imgSrc, desc) => {
@@ -37,10 +37,9 @@ const Home = () => {
   return (
     <>
       <section className="home">
-        
         <video src={video} muted autoPlay loop type="video/mp4"></video>
         
-        <div className="homeContent container" style={{ marginLeft: '10%' }}>
+<div className="homeContent container" style={{ marginLeft: '5%' }}>
           <h1>Welcome to our</h1>
           <h1> Image Gallery</h1>
         </div>
